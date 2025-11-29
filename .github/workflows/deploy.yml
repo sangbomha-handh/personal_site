@@ -18,22 +18,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout (with submodules)
         uses: actions/checkout@v4
-
-      - name: Setup Go (for Hugo Modules)
-        uses: actions/setup-go@v5
         with:
-          go-version: '1.22'
+          submodules: recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.134.2'
+          # 로컬과 가까운 최신 extended 버전이면 OK
+          hugo-version: '0.151.2'
           extended: true
 
-      - name: Build
-        run: hugo --minify
+      - name: Build (프로덕션용 baseURL 주입)
+        run: |
+          hugo --minify --gc --baseURL "https://sangbom.ha.xyz/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
