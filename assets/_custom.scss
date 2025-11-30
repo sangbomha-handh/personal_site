@@ -88,3 +88,18 @@ p, li, a, strong, em, blockquote {
 
 /* 표 사이 간격 통일 */
 .book-page .markdown table { margin-bottom: 2rem; }
+
+/* (1) 모바일에서 표를 가로 스크롤 가능하게 */
+.book-page .markdown table {
+  display: block !important;
+  overflow-x: auto !important;
+  width: 100% !important;
+}
+
+/* (2) 텍스트 줄바꿈 강제 (겹침 방지) */
+.book-page .markdown table th,
+.book-page .markdown table td {
+  white-space: normal !important;
+  word-break: keep-all !important;
+  overflow-wrap: break-word !important;
+}
