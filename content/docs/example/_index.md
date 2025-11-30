@@ -4,8 +4,8 @@ bookFlatSection: true
 title: "경력 요약"
 ---
 
-# 하 상범 19790916
-- Product & Experience Director
+# Product & Experience Director 
+- 1979년 09월 16일, 46세
 - 2025년 기준, 경력 20년차 (석사 2년 포함)
 
 ## 경력 사항
