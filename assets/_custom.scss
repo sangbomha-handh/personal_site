@@ -1,18 +1,68 @@
+/* Paperlogy 폰트 전 가중치 등록 */
 @font-face {
-  font-family: 'ChosunIlboMyungjo';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-2ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
   font-weight: 400;
-  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2') format('woff2');
+  font-weight: 900;
   font-display: swap;
 }
 
-/* hugo-book은 CSS 변수를 써요. 변수로 갈아끼우면 가장 깔끔하게 적용됩니다. */
-:root {
-  --font-body: 'ChosunIlboMyungjo', serif;
-  --font-title: 'ChosunIlboMyungjo', serif;
+/* 전역 적용 */
+html, body, .book-menu, .book-page, .book-footer,
+h1, h2, h3, h4, h5, h6,
+p, li, a, strong, em, blockquote {
+  font-family: 'Paperozi', sans-serif !important;
+  font-weight: 400 !important;
 }
 
-/* 안전하게 전체 영역에도 강제 적용 (테마 오버라이드 대응) */
-html, body, .book-menu, .book-page, .book-footer {
-  font-family: var(--font-body) !important;
+/* hero 영역 높이 줄이기 */
+.book-hero {
+  min-height: 16rem !important;
 }

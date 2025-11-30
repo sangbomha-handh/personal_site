@@ -6,61 +6,60 @@ layout: landing
 <div class="book-hero">
 
 # sangbom.ha {anchor=false}
-[Hugo](https://gohugo.io) documentation theme as simple as plain book
+[하상범](https://www.linkedin.com/in/sangbum-ha/) 개인 웹사이트입니다
 
-[{{< badge style="info" title="Hugo" value="0.146" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.146.7)
+[{{< badge style="info" title="최신수정일" value="20251130" >}}]()
 [{{< badge style="default" title="License" value="MIT" >}}](https://github.com/alex-shpak/hugo-book/blob/main/LICENSE)
 
-{{<button href="/docs/example">}}Explore{{</button>}}
+{{<button href="/docs/example">}}자세히 보기{{</button>}}
 
 </div>
 
-{{% columns %}}
-- ## What Hugo-Book Theme Is
-  Hugo book theme is primarily designed to create technical documentation sites that are easy to read, write, navigate and maintain. It is an attempt to create a sustainable web project.
-
-- ## What Hugo-Book Theme Is Not
-  Book theme is not trying to implement all features but to create a starting point. It is mostly feature complete and gets updated and improved to stay relevant with Hugo and modern web.
-{{% /columns %}}
-
+## 경력 개요
+  저는 광주과학기술원에서 신소재공학을 전공하고 나노 노광 이론을 연구했습니다. 그리고 LG전자에서 약 10년 동안 TV 화질 알고리즘, 생산기술 솔루션, UX 연구소의 전략·디자인 업무를 순차적으로 경험했습니다. 이후 제품디자인 회사를 창업해 독일 Red Dot 디자인 어워드를 수상했으며, 세종대학교에서 4년간 제품/UX를 강의했습니다. 프랜차이즈 데이터 스타트업에서 데이터팀 리더로 2년간 일했고, 최근에는 헬스케어 스타트업에서 전산화 인지 재활 소프트웨어 콘텐츠 개발을 이끌었습니다. 연구–디자인–데이터를 관통하는 경험으로, 기술을 사용자 가치로 연결하는 데 강점이 있습니다.
+<div style="height:0.5rem"></div>
 
 {{% columns %}}
 - {{< card >}}
-  ## Probably fast
-  Build on Hugo static site generator. "The world’s fastest framework for building websites".
+  ## 기술과 경험 간 '번역자형 실무자'
+  LG전자 TV연구소, 생산기술연구소, UX연구소 모두 기술적 제약을 가지고 사용자 체감을 높이는 솔루션을 설계하기 위해 기술언어를 고객 언어로 바꾸는 역할을 해냈습니다.
   {{< /card >}}
 
 - {{< card >}}
-  ## 50% JS free
-  All important features are working even with JavaScript disabled in browser, including interactive shortcodes.
+  ## 직관과 수치를 동시에 '실전 리더'
+    화질 품질평가와 감성평가 업무를 거치며 ‘측정 가능한 주관성’을 연구했고,
+    이후 데이터 스타트업에서 실제 매출·행동 데이터를 다루며 데이터팀을 리드했습니다.
   {{< /card >}}
 
 - {{< card >}}
-  ## Minimalistic
-  For real, it is very minimalistic, black on white. No extra tools are needed to build the site, only Hugo. No heavy JS or CSS frameworks included.
+  ## 제품 전문 ‘풀사이클 크리에이터’
+    과학 연구로 시작해 산업제품 설계, UX 리서치, 스타트업 데이터 리딩까지 경험하여
+    제품이 만들어지고, 사용되고, 시장에서 평가받기까지의 흐름을 이해하고 있습니다.
   {{< /card >}}
 {{% /columns %}}
 
 {{% columns %}}
 - {{< card >}}
-  ### Shortcodes
-  Pretty good shortcodes are included to enhance markup files:
-  [Columns](/docs/shortcodes/columns/),
-  [Cards](/docs/shortcodes/experimental/cards/),
-  [Tabs](/docs/shortcodes/tabs/),
-  [Images](/docs/shortcodes/experimental/images/),
-  [Asciinema](/docs/shortcodes/experimental/asciinema/),
-  [KaTex](/docs/shortcodes/katex/),
-  [Mermaid](/docs/shortcodes/mermaid/) and others.
+  ## 논리 구조를 만드는 ‘시스템 설계자’
+    LG UX연구소, 헬스케어 스타트업에서 ‘경험을 콘텐츠로 구현’하는 일을 주도했으며
+    전산화 인지재활 소프트웨어 기획에서는 환자 경험을 데이터·시스템 단위로 재설계했습니다.
   {{< /card >}}
 
 - {{< card >}}
-  ### Even more
-  Do people actually read these? I thought it was just a visual filler. But there is full-text search and multi-language support.
+  ## 복잡함에 최적화된 ‘커뮤니케이터’.
+    세종대에서 제품/UX 강의를 하며 실무 경험을 교육 언어로 정제하는 과정을 가졌고
+    창업 경험과 국제 디자인 어워드 수상으로 결과를 ‘스토리’로 전환하는 법을 체득했습니다.
   {{< /card >}}
 
 - {{< card >}}
-  ### Made to be extendable
-  There are multiple points to inject own styles and templates to make your documentation your own.
+  ## 원리주의 ‘폴리매스형 문제 해결자’.
+    공학, 디자인, 데이터, 헬스케어 등 영역을 넘나들면서도
+    각 분야에서 결과를 만들어냈습니다. 분야가 달라도 빠르게 전이·적응하는 학습력 보유하고 있습니다.
   {{< /card >}}
 {{% /columns %}}
+
+<div style="height:0.5rem"></div>
+<hr>
+<div style="text-align:center;font-size:14px;margin-top:14px;">
+  Copyright © 2024-2025 sangbom.ha
+</div>
