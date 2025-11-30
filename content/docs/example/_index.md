@@ -1,10 +1,10 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Example Site"
+title: "경력 요약"
 ---
 
-# Introduction
+# 경력 요약
 
 ## Ferre hinnitibus erat accipitrem dixi Troiae tollens
 
