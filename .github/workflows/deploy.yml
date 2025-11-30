@@ -32,7 +32,7 @@ jobs:
 
       - name: Build (프로덕션용 baseURL 주입)
         run: |
-          hugo --minify --gc --baseURL "https://sangbom.ha.xyz/"
+          hugo --minify --gc --baseURL "https://sangbomha-handh.github.io/personal_site/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
