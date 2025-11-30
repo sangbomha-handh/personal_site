@@ -1,4 +1,18 @@
-/* You can add custom styles here. */
+@font-face {
+  font-family: 'ChosunIlboMyungjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
-// @import "plugins/numbered";
-// @import "plugins/scrollbars";
+/* hugo-book은 CSS 변수를 써요. 변수로 갈아끼우면 가장 깔끔하게 적용됩니다. */
+:root {
+  --font-body: 'ChosunIlboMyungjo', serif;
+  --font-title: 'ChosunIlboMyungjo', serif;
+}
+
+/* 안전하게 전체 영역에도 강제 적용 (테마 오버라이드 대응) */
+html, body, .book-menu, .book-page, .book-footer {
+  font-family: var(--font-body) !important;
+}
