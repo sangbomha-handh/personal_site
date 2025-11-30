@@ -4,68 +4,47 @@ bookFlatSection: true
 title: "경력 요약"
 ---
 
-# 경력 요약
+# 하 상범 19790916
+- Product & Experience Director
+- 2025년 기준, 경력 20년차 (석사 2년 포함)
 
-## Ferre hinnitibus erat accipitrem dixi Troiae tollens
+## 경력 사항
 
-Lorem markdownum, a quoque nutu est *quodcumque mandasset* veluti. Passim
-inportuna totidemque nympha fert; repetens pendent, poenarum guttura sed vacet
-non, mortali undas. Omnis pharetramque gramen portentificisque membris servatum
-novabis fallit de nubibus atque silvas mihi. **Dixit repetitaque Quid**; verrit
-longa; sententia [mandat](http://pastor-ad.io/questussilvas) quascumque nescio
-solebat [litore](http://lacrimas-ab.net/); noctes. *Hostem haerentem* circuit
-[plenaque tamen](http://www.sine.io/in).
+| 활동 기간 | 회사명 | 조직명 | 직급 | 역할 |
+|:------|:--------|:-----|:-----|:-----|
+| 2025~현재 | [마인드허브](https://zenicog.com/) |  컨텐츠팀 | 팀리더 | 컨텐츠 설계 |
+| 2022~2025 | [포스페이스랩](https://datapuree.io/) |  데이터팀 | 팀리더 | 데이터 운영/분석 |
+| 2019~2025 | 세종대학교  | 산업디자인학과 | 겸임교수 | 제품/UX디자인 |
+| 2016~2022 | 로캣디자인 | 대표 | - | - |
+| 2013~2015 | LG전자  | LSR/UX연구소 | 선임연구원 | UX 디자인 |
+| 2009~2013 | LG전자 | 생산기술원 | 선임연구원 | PM/연구원 |
+| 2007~2009 | LG전자 TV연구소  | 개발4팀 | 주임연구원 | 엔지니어 |
+| 2007 | LG전자 PDP  | 공정기술팀 | 연구원 | 엔지니어 |
 
-- Pedum ne indigenae finire invergens carpebat
-- Velit posses summoque
-- De fumos illa foret
 
-## Est simul fameque tauri qua ad
+## 학력 사항
+- 최종 학위는 공학 석사, 지도교수님은 [노도영교수님](https://ko.wikipedia.org/wiki/%EB%85%B8%EB%8F%84%EC%98%81)
+- 졸업논문은  hard X-ray를 이용한 노광 기술 개발
+    - 광학 실험을 위한 리눅스 기반 스텝 모터 정밀 제어 컨트롤 시스템 개발
 
-Locum nullus nisi vomentes. Ab Persea sermone vela, miratur aratro; eandem
-Argolicas gener.
+| 재학 기간 | 교육기관 | 전공 | 학위 | 비고 |
+|:----------|:---------|:-----|:-----|:-----|
+| 2005~2007 | [광주과학기술원(GIST)](https://ewww.gist.ac.kr/kr/main.html) | [신소재공학과](https://phys.gist.ac.kr/x-ray/index.do) | 공학석사| 졸업 후 물리/광과학과로 변경|
+| 1998~2005 | 광운대학교 | 전자재료공학과 | 공학학사 | -|
+| 1995~1998 | 휘문고등학교 | 이과 | - | - |
 
-## Me sol
 
-Nec dis certa fuit socer, Nonacria **dies** manet tacitaque sibi? Sucis est
-iactata Castrumque iudex, et iactato quoque terraeque es tandem et maternos
-vittis. Lumina litus bene poenamque animos callem ne tuas in leones illam dea
-cadunt genus, et pleno nunc in quod. Anumque crescentesque sanguinis
-[progenies](http://www.late.net/alimentavirides) nuribus rustica tinguet. Pater
-omnes liquido creditis noctem.
+## 기타 사항
 
-    if (mirrored(icmp_dvd_pim, 3, smbMirroredHard) != lion(clickImportQueue,
-            viralItunesBalancing, bankruptcy_file_pptp)) {
-        file += ip_cybercrime_suffix;
-    }
-    if (runtimeSmartRom == netMarketingWord) {
-        virusBalancingWin *= scriptPromptBespoke + raster(post_drive,
-                windowsSli);
-        cd = address_hertz_trojan;
-        soap_ccd.pcbServerGigahertz(asp_hardware_isa, offlinePeopleware, nui);
-    } else {
-        megabyte.api = modem_flowchart - web + syntaxHalftoneAddress;
-    }
-    if (3 < mebibyteNetworkAnimated) {
-        pharming_regular_error *= jsp_ribbon + algorithm * recycleMediaKindle(
-                dvrSyntax, cdma);
-        adf_sla *= hoverCropDrive;
-        templateNtfs = -1 - vertical;
-    } else {
-        expressionCompressionVariable.bootMulti = white_eup_javascript(
-                table_suffix);
-        guidPpiPram.tracerouteLinux += rtfTerabyteQuicktime(1,
-                managementRosetta(webcamActivex), 740874);
-    }
-    var virusTweetSsl = nullGigo;
-
-## Trepident sitimque
-
-Sentiet et ferali errorem fessam, coercet superbus, Ascaniumque in pennis
-mediis; dolor? Vidit imi **Aeacon** perfida propositos adde, tua Somni Fluctibus
-errante lustrat non.
-
-Tamen inde, vos videt e flammis Scythica parantem rupisque pectora umbras. Haec
-ficta canistris repercusso simul ego aris Dixit! Esse Fama trepidare hunc
-crescendo vigor ululasse vertice *exspatiantur* celer tepidique petita aversata
-oculis iussa est me ferro.
+- 2019 [텀블벅](https://tumblbug.com/rocatpetcarrier3?ref=%ED%94%84%EB%A1%9C%ED%95%84%2F%EC%98%AC%EB%A6%B0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8) 크라우드 펀딩 성공
+- 2018 세계 3대 디자인 어워드 독일 [reddot](https://www.red-dot.org/project/rocat-carrier-22970) winner
+- 2017 UX디자인 서적, [논쟁적UX](https://product.kyobobook.co.kr/detail/S000001875101) 출판
+- 다수 프리랜서 활동
+    - LG전자 데이터 공급/분석
+    - 현대 / 기아 자동차 선행 연구
+    - LG전자 브랜드 연구 참여
+    - 합천 영상테마파크 / 미스터선샤인 테마 파크 전시 디자인
+- 다수의 일러스트 수상 경력
+    - 현대자동차 캐스퍼 그리기 대회 우수상
+    - 카카오메이커스 공모전 입상
+    - 네이버 스티커 공모전 TOP10

@@ -66,3 +66,25 @@ p, li, a, strong, em, blockquote {
 .book-hero {
   min-height: 16rem !important;
 }
+
+
+/* ── Book 테마의 마크다운 표 폭 강제 통일 ─────────────────────────────── */
+.book-page .markdown .table-wrapper,
+.book-page .markdown table {
+  width: 100% !important;
+  max-width: none !important;
+  table-layout: fixed !important;
+  border-collapse: collapse !important;
+  display: table !important; /* 혹시 inline-table로 잡히는 경우 방지 */
+}
+
+.book-page .markdown table th,
+.book-page .markdown table td {
+  padding: 0.6rem 0.8rem;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+  word-break: keep-all;
+}
+
+/* 표 사이 간격 통일 */
+.book-page .markdown table { margin-bottom: 2rem; }
