@@ -77,7 +77,10 @@ layout: landing
 </div>
 </div>
 
-<div style="height:0.5rem"></div>
+<div style="height:3rem;text-align:center">
+  {{<button href="/docs/example">}}전체 보기{{</button>}}
+</div>
+
 
 <div style="text-align:center;font-size:14px;margin-top:14px;">
   Copyright © 2024-2025 sangbom.ha
