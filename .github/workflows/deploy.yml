@@ -34,6 +34,11 @@ jobs:
         run: |
           hugo --minify --gc --baseURL "https://sangbomha-handh.github.io/personal_site/"
 
+      - name: Copy static images (safety net)
+        run: |
+          mkdir -p public/images
+          cp -R static/images/* public/images/ || true
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
