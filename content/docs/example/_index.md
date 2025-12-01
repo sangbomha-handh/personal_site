@@ -4,9 +4,10 @@ bookFlatSection: true
 title: "경력 요약"
 ---
 
-# Product & Experience Director 
-- 1979년 09월 16일, 46세
+# 경력 요약
 - 2025년 기준, 경력 20년차 (석사 2년 포함)
+- Product & Experience Director 
+- 1979년 09월 16일, 46세
 
 ## 경력 사항
 

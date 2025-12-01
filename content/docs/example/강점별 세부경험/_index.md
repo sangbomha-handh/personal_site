@@ -2,7 +2,7 @@
 weight: 10
 ---
 
-# Ubi loqui
+# 강점별 세부 경험
 
 ## Mentem genus facietque salire tempus bracchia
 
