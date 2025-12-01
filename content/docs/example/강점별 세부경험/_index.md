@@ -3,83 +3,52 @@ weight: 10
 ---
 
 # 강점별 세부 경험
+{{% hint info %}}
+저는 ‘기술이 사람에게 의미를 전달하는 과정’을 따라 수직적으로 깊게 들어간 사람입니다.
+연구로 시작해, 제품으로 옮기고, 경험으로 확장했습니다.
+이 과정에서 기술은 ‘사용자 중심 기술 전략’이라는 하나의 축으로 통합하기 위한 도구일 뿐이었습니다.
+그래서 이런 연결 구조를 보여주려면 ‘직무별 나열’보다 강점별 세부 경험으로 설명하고자 합니다.
+{{% /hint %}}
 
-## Mentem genus facietque salire tempus bracchia
+## 기술과 경험 간 번역형 실무자
+[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
+{{% hint %}}
+- 엔지니어링 언어를 사용자 경험의 언어로 자연스럽게 전환 
+- 기술의 가능성을 실제 서비스 가치로 연결하는 역할을 수행
+{{% /hint %}}
 
-Lorem markdownum partu paterno Achillem. Habent amne generosi aderant ad pellem
-nec erat sustinet merces columque haec et, dixit minus nutrit accipiam subibis
-subdidit. Temeraria servatum agros qui sed fulva facta. Primum ultima, dedit,
-suo quisque linguae medentes fixo: tum petis.
 
-## Rapit vocant si hunc siste adspice
+## 직관과 숫자 모두 강한 실전 리더
+[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
+{{% hint %}}
+- 사용자 통찰과 데이터 분석을 균형 있게 활용
+- 감각적 판단과 정량적 검증으로 실질적인 실행력 행사
+{{% /hint %}}
 
-Ora precari Patraeque Neptunia, dixit Danae [Cithaeron
-armaque](http://mersis-an.org/litoristum) maxima in **nati Coniugis** templis
-fluidove. Effugit usus nec ingreditur agmen *ac manus* conlato. Nullis vagis
-nequiquam vultibus aliquos altera *suum venis* teneas fretum. Armos [remotis
-hoc](http://tutum.io/me) sine ferrea iuncta quam!
+## 제품 전문 풀사이클 크리에이터
+[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
+{{% hint %}}
+- 연구·기획·디자인·개발·시장 적용까지 제품 생애 전 과정을 경험 
+- 초기 개념부터 실제 사용자 반응까지 전 주기를 설계하고 리딩
+{{% /hint %}}
 
-## Locus fuit caecis
+## 논리구조 만드는 시스템 설계자
+[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
+{{% hint %}}
+- 복잡한 요구사항과 제약조건 속에서도 핵심 변수를 추출해 구조화
+- 제품·UX·데이터 흐름을 하나의 통합된 시스템으로 설계
+{{% /hint %}}
 
-Nefas discordemque domino montes numen tum humili nexilibusque exit, Iove. Quae
-miror esse, scelerisque Melaneus viribus. Miseri laurus. Hoc est proposita me
-ante aliquid, aura inponere candidioribus quidque accendit bella, sumpta.
-Intravit quam erat figentem hunc, motus de fontes parvo tempestate.
+## 복잡함에 익숙한 커뮤니케이터
+[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
+{{% hint %}}
+- 다양한 배경의 이해관계자 사이에서 관점을 조율
+- 복잡한 개념을 명확한 언어로 전달
+{{% /hint %}}
 
-    iscsi_virus = pitch(json_in_on(eupViral),
-            northbridge_services_troubleshooting, personal(
-            firmware_rw.trash_rw_crm.device(interactive_gopher_personal,
-            software, -1), megabit, ergonomicsSoftware(cmyk_usb_panel,
-            mips_whitelist_duplex, cpa)));
-    if (5) {
-        managementNetwork += dma - boolean;
-        kilohertz_token = 2;
-        honeypot_affiliate_ergonomics = fiber;
-    }
-    mouseNorthbridge = byte(nybble_xmp_modem.horse_subnet(
-            analogThroughputService * graphicPoint, drop(daw_bit, dnsIntranet),
-            gateway_ospf), repository.domain_key.mouse(serverData(fileNetwork,
-            trim_duplex_file), cellTapeDirect, token_tooltip_mashup(
-            ripcordingMashup)));
-    module_it = honeypot_driver(client_cold_dvr(593902, ripping_frequency) +
-            coreLog.joystick(componentUdpLink), windows_expansion_touchscreen);
-    bashGigabit.external.reality(2, server_hardware_codec.flops.ebookSampling(
-            ciscNavigationBacklink, table + cleanDriver), indexProtocolIsp);
-
-## Placabilis coactis nega ingemuit ignoscat nimia non
-
-Frontis turba. Oculi gravis est Delphice; *inque praedaque* sanguine manu non.
-
-    if (ad_api) {
-        zif += usb.tiffAvatarRate(subnet, digital_rt) + exploitDrive;
-        gigaflops(2 - bluetooth, edi_asp_memory.gopher(queryCursor, laptop),
-                panel_point_firmware);
-        spyware_bash.statePopApplet = express_netbios_digital(
-                insertion_troubleshooting.brouter(recordFolderUs), 65);
-    }
-    recursionCoreRay = -5;
-    if (hub == non) {
-        portBoxVirus = soundWeb(recursive_card(rwTechnologyLeopard),
-                font_radcab, guidCmsScalable + reciprocalMatrixPim);
-        left.bug = screenshot;
-    } else {
-        tooltipOpacity = raw_process_permalink(webcamFontUser, -1);
-        executable_router += tape;
-    }
-    if (tft) {
-        bandwidthWeb *= social_page;
-    } else {
-        regular += 611883;
-        thumbnail /= system_lag_keyboard;
-    }
-
-## Caesorum illa tu sentit micat vestes papyriferi
-
-Inde aderam facti; Theseus vis de tauri illa peream. Oculos **uberaque** non
-regisque vobis cursuque, opus venit quam vulnera. Et maiora necemque, lege modo;
-gestanda nitidi, vero? Dum ne pectoraque testantur.
-
-Venasque repulsa Samos qui, exspectatum eram animosque hinc, [aut
-manes](http://www.creveratnon.net/apricaaetheriis), Assyrii. Cupiens auctoribus
-pariter rubet, profana magni super nocens. Vos ius sibilat inpar turba visae
-iusto! Sedes ante dum superest **extrema**.
+## 폴리매스형 문제해결자
+[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
+{{% hint %}}
+- 공학·디자인·심리·데이터 등 댜양한 분야에 대한 빠른 이해
+- 상황에 따라 서로 다른 접근을 조합해 새로운 해결책 도출
+{{% /hint %}}
