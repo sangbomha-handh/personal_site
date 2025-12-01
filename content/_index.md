@@ -21,7 +21,7 @@ layout: landing
 
 <div class="two-cols">
   <div class="photo-box">
-    {{<img src="images/IMG_1052.jpg"> alt="프로필 사진"}}
+    <img src="images/IMG_1052.jpg">
   </div>
   <div>
     <div class="card-list">
