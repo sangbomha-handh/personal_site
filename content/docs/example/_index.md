@@ -5,6 +5,8 @@ title: "경력 요약"
 ---
 
 # 경력 요약
+[{{< badge style="info" title="최신수정일" value="20251201" >}}]()
+
 {{% hint info %}}
 - 2025년 기준, 경력 20년차 (석사 2년 포함)
 - Product & Experience Director 

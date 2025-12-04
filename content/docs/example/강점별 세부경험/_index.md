@@ -3,6 +3,8 @@ weight: 10
 ---
 
 # 강점별 세부 경험
+[{{< badge style="info" title="최신수정일" value="20251130" >}}]()
+
 {{% hint info %}}
 저는 ‘기술이 사람에게 의미를 전달하는 과정’을 따라 수직적으로 깊게 들어간 사람입니다.
 연구로 시작해, 제품으로 옮기고, 경험으로 확장했습니다.
@@ -11,44 +13,48 @@ weight: 10
 {{% /hint %}}
 
 ## 기술과 경험 간 번역형 실무자
-[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
 {{% hint %}}
 - 엔지니어링 언어를 사용자 경험의 언어로 자연스럽게 전환 
 - 기술의 가능성을 실제 서비스 가치로 연결하는 역할을 수행
 {{% /hint %}}
+{{<button href="/docs/example">}}자세히 보기{{</button>}}
 
 
 ## 직관과 숫자 모두 강한 실전 리더
-[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
 {{% hint %}}
 - 사용자 통찰과 데이터 분석을 균형 있게 활용
 - 감각적 판단과 정량적 검증으로 실질적인 실행력 행사
 {{% /hint %}}
+{{<button href="/docs/example">}}자세히 보기{{</button>}}
+
 
 ## 제품 전문 풀사이클 크리에이터
-[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
 {{% hint %}}
 - 연구·기획·디자인·개발·시장 적용까지 제품 생애 전 과정을 경험 
 - 초기 개념부터 실제 사용자 반응까지 전 주기를 설계하고 리딩
 {{% /hint %}}
+{{<button href="/docs/example">}}자세히 보기{{</button>}}
+
 
 ## 논리구조 만드는 시스템 설계자
-[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
 {{% hint %}}
 - 복잡한 요구사항과 제약조건 속에서도 핵심 변수를 추출해 구조화
 - 제품·UX·데이터 흐름을 하나의 통합된 시스템으로 설계
 {{% /hint %}}
+{{<button href="/docs/example">}}자세히 보기{{</button>}}
+
 
 ## 복잡함에 익숙한 커뮤니케이터
-[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
 {{% hint %}}
 - 다양한 배경의 이해관계자 사이에서 관점을 조율
 - 복잡한 개념을 명확한 언어로 전달
 {{% /hint %}}
+{{<button href="/docs/example">}}자세히 보기{{</button>}}
+
 
 ## 폴리매스형 문제해결자
-[{{< badge style="info" title="자세히 보기" value="20251201" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
 {{% hint %}}
 - 공학·디자인·심리·데이터 등 댜양한 분야에 대한 빠른 이해
 - 상황에 따라 서로 다른 접근을 조합해 새로운 해결책 도출
 {{% /hint %}}
+{{<button href="/docs/example">}}자세히 보기{{</button>}}
