@@ -58,3 +58,8 @@ weight: 10
 - 상황에 따라 서로 다른 접근을 조합해 새로운 해결책 도출
 {{% /hint %}}
 {{<button href="/docs/example">}}자세히 보기{{</button>}}
+
+
+
+
+<br>
