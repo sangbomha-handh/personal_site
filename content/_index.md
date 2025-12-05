@@ -9,9 +9,9 @@ layout: landing
 [하상범](https://www.linkedin.com/in/sangbum-ha/) 개인 웹사이트입니다
 
 [{{< badge style="info" title="최신수정일" value="20251130" >}}]()
-[{{< badge style="default" title="License" value="MIT" >}}](https://github.com/alex-shpak/hugo-book/blob/main/LICENSE)
+[{{< badge style="success" title="상태" value="구직중" >}}]()
 
-{{<button href="/docs/example">}}전체 보기{{</button>}}
+{{<button href="/docs/example">}}전체 내용 보기{{</button>}}
 
 </div>
 
@@ -78,7 +78,7 @@ layout: landing
 </div>
 
 <div style="height:3rem;text-align:center">
-  {{<button href="/docs/example">}}전체 보기{{</button>}}
+  {{<button href="/docs/example">}}전체 내용 보기{{</button>}}
 </div>
 
 
