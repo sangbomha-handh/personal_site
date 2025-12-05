@@ -18,7 +18,6 @@ title: "경력 요약"
 {{< badge style="info" title="Product & UX" >}}
 - UX Strategy / Research (행동 분석·감성/인지 기반 리서치)
 - 서비스 플로우·IA 설계, 프로토타입 제작
-- 디지털 헬스케어 UX, 교육/치료형 콘텐츠 구조 설계
 - 사용자 가치 기반 제품 기획/콘셉트 개발
 {{% /hint %}}
 
