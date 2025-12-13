@@ -21,7 +21,7 @@ layout: landing
 
 <div class="two-cols">
   <div class="photo-box">
-    <img src="images/IMG_1052.jpg">
+    <img src="images/IMG_0531.png">
   </div>
   <div>
     <div class="card-list">
