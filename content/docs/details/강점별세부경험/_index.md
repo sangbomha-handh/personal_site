@@ -18,7 +18,7 @@ weight: 10
 - 기술의 가능성을 실제 서비스 가치로 연결하는 역할을 수행
 {{% /hint %}}
 
-{{<button href="/personal_site/docs/details/강점별세부경험/1/">}}자세히 보기{{</button>}}
+{{<button href="/personal_site/docs/details/강점별세부경험/1">}}프로젝트 자세히 보기{{</button>}}
 
 ## 직관과 숫자 모두 강한 양수겸장 리더
 {{% hint %}}
