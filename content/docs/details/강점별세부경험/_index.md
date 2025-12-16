@@ -20,6 +20,7 @@ weight: 10
 
 {{<button href="/personal_site/docs/details/%EA%B0%95%EC%A0%90%EB%B3%84%EC%84%B8%EB%B6%80%EA%B2%BD%ED%97%98/1">}}자세히 보기{{</button>}}
 
+
 ## 직관과 숫자 모두 강한 양수겸장 리더
 {{% hint %}}
 - 사용자 통찰과 데이터 분석을 균형 있게 활용
