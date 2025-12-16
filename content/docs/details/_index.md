@@ -75,8 +75,8 @@ title: "경력 요약"
 - 2018 세계 3대 디자인 어워드 독일 [reddot](https://www.red-dot.org/project/rocat-carrier-22970) winner
 - 2017 UX디자인 서적, [논쟁적UX](https://product.kyobobook.co.kr/detail/S000001875101) 출판
 - 다수 프리랜서 활동
-    - LG전자 데이터 공급/분석
-    - 현대 / 기아 자동차 선행 연구
+    - LG전자 데이터 공급/분석 프로젝트
+    - 현대 자동차 변송기 선행 연구 프로젝트
     - LG전자 브랜드 연구 참여
     - 합천 영상테마파크 / 미스터선샤인 테마 파크 전시 디자인
 - 다수의 일러스트 수상 경력
