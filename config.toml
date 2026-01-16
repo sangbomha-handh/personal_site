@@ -2,6 +2,7 @@ title = "sangbom.ha"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
+baseURL = "https://sangbomha.xyz/"
 
 # 서브모듈 방식 → theme만 지정
 theme = "hugo-book"
