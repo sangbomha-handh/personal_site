@@ -26,13 +26,13 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          # 로컬과 가까운 최신 extended 버전이면 OK
           hugo-version: '0.151.2'
           extended: true
 
-      - name: Build (프로덕션용 baseURL 주입)
+      - name: Build
+        # --baseURL 옵션을 제거하여 hugo.toml의 설정을 따르도록 수정함
         run: |
-          hugo --minify --gc --baseURL "https://sangbomha-handh.github.io/personal_site/"
+          hugo --minify --gc
 
       - name: Copy static images (safety net)
         run: |
