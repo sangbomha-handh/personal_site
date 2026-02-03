@@ -11,7 +11,9 @@ layout: landing
 [{{< badge style="info" title="최신수정일" value="20251130" >}}]()
 [{{< badge style="success" title="상태" value="탐색중" >}}]()
 
-{{<button href="/docs/details">}}전체 내용 보기{{</button>}}
+{{< button href="/docs/details" class="primary" >}}상세 내용 보기{{< /button >}}
+{{< button href="/pdf/resume_2026.pdf" >}}이력서{{< /button >}}
+{{< button href="/pdf/coverletter_2026.pdf" >}}커버레터{{< /button >}}
 
 </div>
 
@@ -82,7 +84,9 @@ LG UX연구소, 스타트업에서 ‘경험을 콘텐츠로 구현’하는 일
 </div>
 
 <div style="height:3rem;text-align:center">
-  {{<button href="/docs/details">}}전체 내용 보기{{</button>}}
+  {{< button href="/docs/details" class="primary" >}}상세 내용 보기{{< /button >}}
+{{< button href="/pdf/resume_2026.pdf" >}}이력서{{< /button >}}
+{{< button href="/pdf/coverletter_2026.pdf" >}}커버레터{{< /button >}}
 </div>
 
 
