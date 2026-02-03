@@ -72,7 +72,8 @@ body,
   font-weight: 400 !important;
 }
 
-.book-page {
+/* 랜딩 페이지 전용 상단 여백 축소 */
+.book-layout-landing .book-page {
   padding-top: 0 !important;
 }
 
