@@ -5,48 +5,56 @@
   font-weight: 100;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Paperozi';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-2ExtraLight.woff2') format('woff2');
   font-weight: 200;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Paperozi';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2') format('woff2');
   font-weight: 300;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Paperozi';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
   font-weight: 400;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Paperozi';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
   font-weight: 500;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Paperozi';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Paperozi';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
   font-weight: 700;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Paperozi';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
   font-weight: 800;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Paperozi';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2') format('woff2');
@@ -55,9 +63,23 @@
 }
 
 /* 전역 적용 */
-html, body, .book-menu, .book-page, .book-footer,
-h1, h2, h3, h4, h5, h6,
-p, li, a, strong, em, blockquote {
+html,
+body,
+.book-menu,
+.book-page,
+.book-footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+strong,
+em,
+blockquote {
   font-family: 'Paperozi', sans-serif !important;
   font-weight: 400 !important;
 }
@@ -75,7 +97,8 @@ p, li, a, strong, em, blockquote {
   max-width: none !important;
   table-layout: fixed !important;
   border-collapse: collapse !important;
-  display: table !important; /* 혹시 inline-table로 잡히는 경우 방지 */
+  display: table !important;
+  /* 혹시 inline-table로 잡히는 경우 방지 */
 }
 
 .book-page .markdown table th,
@@ -87,7 +110,9 @@ p, li, a, strong, em, blockquote {
 }
 
 /* 표 사이 간격 통일 */
-.book-page .markdown table { margin-bottom: 2rem; }
+.book-page .markdown table {
+  margin-bottom: 2rem;
+}
 
 /* (1) 모바일에서 표를 가로 스크롤 가능하게 */
 .book-page .markdown table {
@@ -105,42 +130,97 @@ p, li, a, strong, em, blockquote {
 }
 
 
-/* 2컬럼 레이아웃: 왼쪽 사진 30% / 오른쪽 소개 70% */
-.two-cols {
+/* 랜딩 레이아웃: 왼쪽 사진+소개(30%), 오른쪽 카드(70%) */
+.landing-grid {
   display: grid;
-  grid-template-columns: 30% 70%;
-  gap: 1.5rem;
-  align-items: start;
-  margin: 1.5rem 0;
+  grid-template-columns: 28% 1fr;
+  /* 폭 살짝 조정 */
+  gap: 3.5rem;
+  margin: 3rem 0;
+  align-items: stretch;
+  /* 중요: 높이를 동일하게 맞춤 */
 }
 
-/* 모바일에서는 사진(위) - 소개(아래)로 세로 스택 */
-@media (max-width: 768px) {
-  .two-cols {
-    grid-template-columns: 1fr;
+.left-section {
+  display: flex;
+  flex-direction: column;
+  /* 중요: 왼쪽 영역이 전체 높이를 결정하지 않도록 하고, 오른쪽(카드) 높이에 맞추게 함 */
+  height: 0;
+  min-height: 100%;
+}
+
+.photo-box {
+  flex: 1;
+  /* 남는 세로 공간을 차지 */
+  display: flex;
+  align-items: center;
+  /* 사진을 세로 중앙에 배치 */
+  justify-content: center;
+  /* 가로 중앙에 배치 */
+  margin-bottom: 2rem;
+  overflow: visible;
+  /* 그림자가 잘리지 않도록 */
+}
+
+.photo-box img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  /* 비율 유지를 위해 auto */
+  height: auto;
+  /* 비율 유지를 위해 auto */
+  object-fit: contain;
+  /* 잘리지 않고 전체가 보이도록 설정 */
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.intro-text {
+
+  /* 텍스트 하단 여백 제거하여 카드 하단과 맞춤 */
+  h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
   }
+
+  p {
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
 }
 
 /* 카드 스타일: 데스크탑에서 2열 3행, 모바일에서 1열 6행 */
 .card-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem; /* 카드 사이 간격 */
-  align-items: start;
+  gap: 1.2rem;
+  /* 카드 사이 간격 */
 }
 
-@media (max-width: 768px) {
+/* 모바일 대응 */
+@media (max-width: 860px) {
+  .landing-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
   .card-list {
     grid-template-columns: 1fr;
   }
 }
+
 
 .card {
   border-radius: 0.75rem;
   padding: 0rem 1.5rem 1rem 1.6rem;
   background: #ffffff;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0,0,0,0.04);
+  border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 .card-title {
@@ -151,20 +231,6 @@ p, li, a, strong, em, blockquote {
   margin: 0.25rem 0;
 }
 
-/* 왼쪽 사진 컨테이너 */
-.photo-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* 왼쪽 사진: 칼럼 너비에 맞춰 가로 비율 유지 */
-.photo-box img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 0.75rem;
-}
 
 .card-title h3 {
   display: flex;
@@ -176,11 +242,14 @@ p, li, a, strong, em, blockquote {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #e8f0ff;          /* 연한 파랑(조정 가능) */
-  color: #2a4ea2;               /* 짙은 파랑(조정 가능) */
+  background: #e8f0ff;
+  /* 연한 파랑(조정 가능) */
+  color: #2a4ea2;
+  /* 짙은 파랑(조정 가능) */
   width: 32px;
   height: 32px;
-  border-radius: 10px;          /* 둥근정도 조절 */
+  border-radius: 10px;
+  /* 둥근정도 조절 */
   font-weight: 600;
   font-size: 1rem;
 }
@@ -191,15 +260,39 @@ p, li, a, strong, em, blockquote {
   font-size: 0.9rem;
   padding: 0.18rem 0.45rem;
   border-radius: 0.45rem;
-  border: 1px solid rgba(0,0,0,0.06);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   background: #f3f7ff;
   color: #123a8a;
   margin-right: 0.4rem;
 }
-.hb-badge .hb-badge-title { font-weight: 600; margin-right: 0.25rem; }
-.hb-badge .hb-badge-value { font-weight: 500; }
-.hb-badge-huge { padding: 0.4rem 0.7rem; }
-.hb-badge-info { background: #eef5ff; color: #1d4ed8; border-color: rgba(29,78,216,0.12); }
-.hb-badge-success { background: #ecfdf5; color: #166534; border-color: rgba(22,101,52,0.08); }
-.hb-badge-danger { background: #fff1f2; color: #9f1239; border-color: rgba(159,18,57,0.08); }
 
+.hb-badge .hb-badge-title {
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.hb-badge .hb-badge-value {
+  font-weight: 500;
+}
+
+.hb-badge-huge {
+  padding: 0.4rem 0.7rem;
+}
+
+.hb-badge-info {
+  background: #eef5ff;
+  color: #1d4ed8;
+  border-color: rgba(29, 78, 216, 0.12);
+}
+
+.hb-badge-success {
+  background: #ecfdf5;
+  color: #166534;
+  border-color: rgba(22, 101, 52, 0.08);
+}
+
+.hb-badge-danger {
+  background: #fff1f2;
+  color: #9f1239;
+  border-color: rgba(159, 18, 57, 0.08);
+}

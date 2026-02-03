@@ -15,14 +15,19 @@ layout: landing
 
 </div>
 
-<div class="two-cols">
+<div class="landing-grid">
+<div class="left-section">
 <div class="photo-box">
 <img src="images/bom.jpg">
 </div>
-<div>
+
+<div class="intro-text">
 <h2>간단 소개</h2>
 <p>저는 광주과학기술원 석사 그리고 LG전자에서 약 10년 생산기술 솔루션, 리서치, 전략·디자인 업무를 순차적으로 경험했습니다. 이후 제품디자인 회사를 창업해 독일 Red Dot 디자인 어워드를 수상했으며, 세종대학교에서 약 6년간 제품/UX를 강의했습니다. 프랜차이즈 데이터 스타트업에서 데이터팀 리더로 2년간 일했고, 최근에는 헬스케어 스타트업에서 전산화 인지 재활 소프트웨어 콘텐츠 개발을 이끌었습니다. 연구–디자인–데이터를 관통하는 경험으로, 기술을 사용자 가치로 연결하는 데 강점이 있습니다.</p>
+</div>
+</div>
 
+<div class="right-section">
 <div class="card-list">
 <div class="card">
 <div class="card-title">
