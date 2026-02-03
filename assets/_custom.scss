@@ -105,28 +105,34 @@ p, li, a, strong, em, blockquote {
 }
 
 
-/* 2컬럼 레이아웃 */
+/* 2컬럼 레이아웃: 왼쪽 사진 30% / 오른쪽 소개 70% */
 .two-cols {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: 30% 70%;
   gap: 1.5rem;
-  align-items: stretch;  /* 핵심: 양쪽 높이를 동일하게 늘림 */
+  align-items: start;
   margin: 1.5rem 0;
 }
 
-/* 모바일에서는 세로로 쌓이게 */
+/* 모바일에서는 사진(위) - 소개(아래)로 세로 스택 */
 @media (max-width: 768px) {
   .two-cols {
     grid-template-columns: 1fr;
   }
 }
 
-/* 카드 스타일 */
+/* 카드 스타일: 데스크탑에서 2열 3행, 모바일에서 1열 6행 */
 .card-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem; /* 카드 사이 간격 */
-  height: 100%;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
@@ -147,17 +153,16 @@ p, li, a, strong, em, blockquote {
 
 /* 왼쪽 사진 컨테이너 */
 .photo-box {
-  height: 100%;  /* 오른쪽 카드 스택 높이에 맞춰 늘어나게 함 */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* 문제의 '왼쪽 사진' */
+/* 왼쪽 사진: 칼럼 너비에 맞춰 가로 비율 유지 */
 .photo-box img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;  
+  height: auto;
+  object-fit: cover;
   border-radius: 0.75rem;
 }
 
@@ -179,4 +184,22 @@ p, li, a, strong, em, blockquote {
   font-weight: 600;
   font-size: 1rem;
 }
+
+/* badge shortcode styling */
+.hb-badge {
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 0.18rem 0.45rem;
+  border-radius: 0.45rem;
+  border: 1px solid rgba(0,0,0,0.06);
+  background: #f3f7ff;
+  color: #123a8a;
+  margin-right: 0.4rem;
+}
+.hb-badge .hb-badge-title { font-weight: 600; margin-right: 0.25rem; }
+.hb-badge .hb-badge-value { font-weight: 500; }
+.hb-badge-huge { padding: 0.4rem 0.7rem; }
+.hb-badge-info { background: #eef5ff; color: #1d4ed8; border-color: rgba(29,78,216,0.12); }
+.hb-badge-success { background: #ecfdf5; color: #166534; border-color: rgba(22,101,52,0.08); }
+.hb-badge-danger { background: #fff1f2; color: #9f1239; border-color: rgba(159,18,57,0.08); }
 

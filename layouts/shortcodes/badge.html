@@ -1,0 +1,12 @@
+{{/*
+  Simple badge shortcode
+  Usage: {{< badge style="info" title="최신수정일" value="20251130" >}}
+*/}}
+{{ $style := .Get "style" | default "info" }}
+{{ $title := .Get "title" }}
+{{ $value := .Get "value" }}
+<span class="hb-badge hb-badge-{{ $style }}">
+  {{ if $title }}<span class="hb-badge-title">{{ $title }}</span>{{ end }}
+  {{ if and $title $value }}: {{ end }}
+  {{ if $value }}<span class="hb-badge-value">{{ $value }}</span>{{ end }}
+</span>
