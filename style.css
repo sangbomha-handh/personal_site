@@ -173,6 +173,10 @@ main {
     flex: 0 0 auto;
 }
 
+main:has(#home.active) {
+    flex: 0 0 auto;
+}
+
 /* Content Area for non-home tabs */
 .content-area {
     padding: 2rem 0;
