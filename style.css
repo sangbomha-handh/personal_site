@@ -1114,6 +1114,7 @@ main:has(#home.active) {
 
     .intro-text {
         font-size: 0.8rem;
+        padding-right: calc(2px + 0.8rem);
     }
 
     .logo-section {
