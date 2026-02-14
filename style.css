@@ -697,6 +697,17 @@ main {
     letter-spacing: 0.02em;
 }
 
+.project-tag {
+    display: inline-block;
+    padding: 0.15em 0.5em;
+    background-color: var(--accent-color);
+    color: #111;
+    font-size: 0.85em;
+    font-weight: 700;
+    border-radius: 3px;
+    margin-right: 0.4em;
+}
+
 .project-headline {
     font-size: 2.8vh;
     font-weight: 700;
