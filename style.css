@@ -146,10 +146,6 @@ main {
     margin: 0 auto;
 }
 
-main:has(#home.active) {
-    flex: 0 0 auto;
-}
-
 /* Tab Content */
 .tab-content {
     display: none;
@@ -483,7 +479,7 @@ main:has(#home.active) {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-    padding-left: 15px;
+    padding-left: calc(2px + 1.5rem);
 }
 
 .intro-content {
@@ -549,7 +545,7 @@ main:has(#home.active) {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    padding-left: 1.5rem;
+    padding-left: calc(2px + 1.5rem);
     /* Visual alignment with intro text */
     margin-top: 2vh;
     margin-bottom: 5vh;
@@ -1095,11 +1091,15 @@ main:has(#home.active) {
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5rem;
-        padding-left: calc(2px + 0.8rem);
     }
 
     .home-hero {
         padding-left: 0.8rem;
+    }
+
+    .intro-container,
+    .logo-section {
+        padding-left: calc(2px + 0.8rem);
     }
 
     .intro-text {
@@ -1109,7 +1109,6 @@ main:has(#home.active) {
     .logo-section {
         gap: 1.5rem;
         margin-bottom: 1rem;
-        padding-left: calc(2px + 0.8rem);
     }
 
     .stats-section {
