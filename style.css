@@ -1167,4 +1167,8 @@ main {
     .expertise-list li {
         font-size: 1.8vh;
     }
+
+    .detail-images {
+        grid-template-columns: 1fr;
+    }
 }
