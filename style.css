@@ -256,14 +256,13 @@ main {
 
 .expertise-role {
     display: inline-block;
-    font-size: 1.4vh;
-    color: #d4d4d4;
-    font-weight: 500;
+    padding: 0.15em 0.5em;
+    background-color: var(--accent-color);
+    color: #111;
+    font-size: 0.85em;
+    font-weight: 700;
+    border-radius: 3px;
     margin-bottom: 0.8rem;
-    letter-spacing: 0.02em;
-    padding: 0.25rem 0.7rem;
-    background: var(--accent-color);
-    border-radius: 20px;
 }
 
 .expertise-title {
