@@ -50,6 +50,12 @@ body {
     display: flex;
     flex-direction: column;
     overflow: visible;
+    min-height: 100%;
+}
+
+#footer-placeholder {
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 /* Custom Scrollbar Styling */
