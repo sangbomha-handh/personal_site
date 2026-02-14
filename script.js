@@ -48,6 +48,7 @@ function initializeNavigation() {
                     if (tabId === 'home') {
                         setTimeout(() => animateStats(), 100);
                     }
+                    window.location.hash = tabId;
                 }, 150);
             } else if (!currentTab) {
                 nextTab.classList.add('active');
@@ -165,6 +166,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Load header and footer first
     await initializeComponents();
 
-    // Initial animation on page load
-    animateStats();
+    // Restore tab from URL hash
+    const hash = window.location.hash.replace('#', '');
+    const validTabs = ['home', 'summary', 'experience', 'projects'];
+    if (hash && validTabs.includes(hash) && hash !== 'home') {
+        switchToTab(hash);
+    } else {
+        // Initial animation on page load
+        animateStats();
+    }
 });
