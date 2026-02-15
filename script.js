@@ -11,10 +11,16 @@ async function loadComponent(elementId, filePath) {
 
 // Initialize components
 async function initializeComponents() {
-    await loadComponent('header-placeholder', 'header.html');
-    await loadComponent('footer-placeholder', 'footer.html');
+    await Promise.all([
+        loadComponent('header-placeholder', 'header.html'),
+        loadComponent('footer-placeholder', 'footer.html'),
+        loadComponent('home-placeholder', 'pages/home.html'),
+        loadComponent('summary-placeholder', 'pages/summary.html'),
+        loadComponent('experience-placeholder', 'pages/experience.html'),
+        loadComponent('projects-placeholder', 'pages/projects.html'),
+    ]);
 
-    // After header is loaded, initialize navigation
+    // After all components are loaded, initialize navigation
     initializeNavigation();
 }
 
@@ -122,10 +128,54 @@ function toggleProject(headerEl) {
     card.classList.toggle('expanded');
 }
 
-// Detail section expand/collapse
-function toggleDetailSection(titleEl) {
-    const section = titleEl.closest('.detail-section');
-    section.classList.toggle('expanded');
+// Drawer for detail sections
+function openDrawer(btnEl) {
+    const section = btnEl.closest('.detail-section');
+    const titleEl = section.querySelector('.detail-section-title').cloneNode(true);
+    const btn = titleEl.querySelector('.detail-section-btn');
+    if (btn) btn.remove();
+    const title = titleEl.textContent.trim();
+    const body = section.querySelector('.detail-section-body');
+
+    // Create overlay
+    let overlay = document.querySelector('.drawer-overlay');
+    if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.className = 'drawer-overlay';
+        document.body.appendChild(overlay);
+    }
+
+    // Create panel
+    let panel = document.querySelector('.drawer-panel');
+    if (!panel) {
+        panel = document.createElement('div');
+        panel.className = 'drawer-panel';
+        document.body.appendChild(panel);
+    }
+
+    // Fill panel
+    panel.innerHTML = `
+        <button class="drawer-close" onclick="closeDrawer()">← 닫기</button>
+        <h3 class="drawer-title">${title}</h3>
+        <div class="drawer-content">${body.innerHTML}</div>
+    `;
+
+    // Open
+    requestAnimationFrame(() => {
+        overlay.classList.add('open');
+        panel.classList.add('open');
+        document.body.style.overflow = 'hidden';
+    });
+
+    overlay.onclick = closeDrawer;
+}
+
+function closeDrawer() {
+    const overlay = document.querySelector('.drawer-overlay');
+    const panel = document.querySelector('.drawer-panel');
+    if (overlay) overlay.classList.remove('open');
+    if (panel) panel.classList.remove('open');
+    document.body.style.overflow = '';
 }
 
 // Navigate to project detail in projects tab
