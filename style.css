@@ -1195,7 +1195,7 @@ main {
 
     .stats-section {
         width: 100%;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         margin-bottom: 2rem;
     }
 
@@ -1222,7 +1222,7 @@ main {
     }
 
     .stat-desc {
-        display: none;
+        display: block;
     }
 
     .progress-bar {
