@@ -293,6 +293,27 @@ main {
     border-radius: 2px;
 }
 
+.timeline-bar::before,
+.timeline-bar::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--bg-color);
+    border: 2px solid var(--accent-color);
+    transform: translateY(-50%);
+}
+
+.timeline-bar::before {
+    left: 0;
+}
+
+.timeline-bar::after {
+    right: 0;
+}
+
 .timeline-labels {
     display: flex;
     justify-content: space-between;
