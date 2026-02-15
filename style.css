@@ -517,8 +517,20 @@ main {
     color: #d0d0d0;
     line-height: 1.9;
     margin-bottom: 0;
-    text-align: justify;
-    /* max-width removed as parent handles it */
+    list-style: none;
+    padding: 0;
+}
+
+.intro-text li {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.intro-text li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
 }
 
 .btn-download {
