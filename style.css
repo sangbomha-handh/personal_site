@@ -901,6 +901,18 @@ main {
     color: var(--gray-text);
 }
 
+.detail-stat-label::after {
+    content: "";
+    display: block;
+    margin-top: 0.6rem;
+    width: 100%;
+    height: 4px;
+    background-image: radial-gradient(circle, var(--accent-color) 1.2px, transparent 1.2px);
+    background-size: 5px 4px;
+    background-repeat: repeat-x;
+    opacity: 0.45;
+}
+
 .detail-section {
     margin-bottom: 1.5rem;
     border: 1px solid #222;
