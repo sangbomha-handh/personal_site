@@ -1190,7 +1190,7 @@ main {
 
     .logo-section {
         gap: 1.5rem;
-        margin-top: 4vh;
+        margin-top: 2vh;
         margin-bottom: 1rem;
     }
 
@@ -1201,6 +1201,7 @@ main {
     .stats-section {
         width: 100%;
         grid-template-columns: 1fr;
+        margin-top: 3vh;
         margin-bottom: 2rem;
     }
 
