@@ -479,6 +479,7 @@ main {
     margin-top: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     gap: 1rem;
     padding-left: calc(2px + 1.5rem);
@@ -496,6 +497,8 @@ main {
     position: relative;
     padding: 0;
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-icon {
@@ -523,15 +526,31 @@ main {
 .intro-text {
     font-size: 2vh;
     color: #d0d0d0;
-    line-height: 1.9;
     margin-bottom: 0;
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
 }
 
 .intro-text li {
     position: relative;
     padding-left: 1rem;
+}
+
+.intro-text li.intro-muted {
+    font-size: 1.5vh;
+    color: var(--gray-text);
+}
+
+.intro-text li.intro-muted a {
+    color: var(--accent-color);
+}
+
+.intro-text li.intro-muted::before {
+    content: none;
 }
 
 .intro-text li::before {
@@ -586,9 +605,15 @@ main {
     display: flex;
     gap: 2rem;
     margin-top: 3vh;
+    align-items: stretch;
 }
 
 .home-body-left {
+    flex: 1;
+    display: flex;
+}
+
+.home-body-left .intro-container {
     flex: 1;
 }
 
