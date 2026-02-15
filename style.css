@@ -515,7 +515,7 @@ main {
 .intro-text {
     font-size: 2vh;
     color: #d0d0d0;
-    line-height: 1.6;
+    line-height: 1.9;
     margin-bottom: 0;
     text-align: justify;
     /* max-width removed as parent handles it */
