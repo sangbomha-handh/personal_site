@@ -1193,6 +1193,10 @@ main {
         margin-bottom: 1rem;
     }
 
+    .logo-section img {
+        height: 21px;
+    }
+
     .stats-section {
         width: 100%;
         grid-template-columns: 1fr;
