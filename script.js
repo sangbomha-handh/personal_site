@@ -48,6 +48,9 @@ function initializeNavigation() {
                     if (tabId === 'home') {
                         setTimeout(() => animateStats(), 100);
                     }
+                    if (tabId === 'summary') {
+                        setTimeout(() => animateTimelines(), 100);
+                    }
                     window.location.hash = tabId;
                 }, 150);
             } else if (!currentTab) {
@@ -56,6 +59,17 @@ function initializeNavigation() {
                     nextTab.classList.add('visible');
                 });
             }
+        });
+    });
+}
+
+// Timeline animation function
+function animateTimelines() {
+    const bars = document.querySelectorAll('.timeline-bar');
+    bars.forEach(bar => bar.classList.remove('animate'));
+    requestAnimationFrame(() => {
+        bars.forEach((bar, i) => {
+            setTimeout(() => bar.classList.add('animate'), i * 200);
         });
     });
 }
@@ -154,6 +168,7 @@ function switchToTab(tabId, callback) {
             nextTab.classList.add('active');
             requestAnimationFrame(() => {
                 nextTab.classList.add('visible');
+                if (tabId === 'summary') setTimeout(() => animateTimelines(), 100);
                 if (callback) setTimeout(callback, 50);
             });
         }, 150);
