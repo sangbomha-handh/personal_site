@@ -1289,6 +1289,10 @@ main {
         width: 100%;
     }
 
+    .detail-stat {
+        padding: 0.6rem 0.8rem;
+    }
+
     body {
         height: auto;
         overflow: auto;
