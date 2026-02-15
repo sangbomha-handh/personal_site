@@ -132,7 +132,7 @@ ul {
 }
 
 .main-nav a.active {
-    color: var(--text-color);
+    color: rgb(117, 251, 166);
     font-weight: 700;
 }
 
@@ -270,7 +270,7 @@ main {
 .expertise-title {
     font-size: 2.4vh;
     font-weight: 700;
-    color: var(--text-color);
+    color: rgb(117, 251, 166);
     margin-bottom: 2rem;
 }
 
@@ -470,7 +470,7 @@ main {
 
 .role-list li {
     font-size: 1.5vh;
-    color: var(--gray-text);
+    color: rgb(117, 251, 166);
     margin-bottom: 0.3vh;
 }
 
@@ -713,7 +713,7 @@ main {
 .project-headline {
     font-size: 2.8vh;
     font-weight: 700;
-    color: var(--text-color);
+    color: rgb(117, 251, 166);
     margin-bottom: 1rem;
     line-height: 1.4;
 }
@@ -769,7 +769,7 @@ main {
 
 .project-actions li {
     padding: 0.35rem 0;
-    color: var(--gray-text);
+    color: rgb(117, 251, 166);
     font-size: 1.7vh;
     line-height: 1.6;
     position: relative;
@@ -849,7 +849,7 @@ main {
 .detail-title {
     font-size: 3.5vh;
     font-weight: 800;
-    color: var(--text-color);
+    color: rgb(117, 251, 166);
     line-height: 1.3;
     margin-bottom: 1.2rem;
 }
@@ -957,7 +957,7 @@ main {
 
 .detail-text {
     font-size: 1.8vh;
-    color: var(--gray-text);
+    color: rgb(117, 251, 166);
     line-height: 1.8;
     margin-bottom: 0.8rem;
 }
