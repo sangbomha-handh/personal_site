@@ -1021,7 +1021,6 @@ main {
     margin: 0;
     cursor: pointer;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     transition: color 0.2s ease;
 }
@@ -1041,6 +1040,7 @@ main {
     content: "▼";
     font-size: 1.2vh;
     color: #555;
+    margin-left: auto;
     transition: transform 0.3s ease;
 }
 
