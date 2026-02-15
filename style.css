@@ -1293,6 +1293,10 @@ main {
         padding: 0.6rem 0.8rem;
     }
 
+    .detail-stats {
+        gap: 0.4rem;
+    }
+
     body {
         height: auto;
         overflow: auto;
