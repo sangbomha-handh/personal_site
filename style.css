@@ -658,6 +658,10 @@ main {
     letter-spacing: 0.02em;
 }
 
+.mobile-br {
+    display: none;
+}
+
 .exp-hero-desc {
     font-size: 2vh;
     color: var(--gray-text);
@@ -1053,6 +1057,10 @@ main {
 }
 
 @media (max-width: 768px) {
+    .mobile-br {
+        display: block;
+    }
+
     body {
         height: auto;
         overflow: auto;
