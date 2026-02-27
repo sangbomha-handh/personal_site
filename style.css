@@ -182,14 +182,14 @@ main {
 }
 
 .section-title {
-    font-size: 4vh;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2vh;
     color: var(--text-color);
 }
 
 .content-placeholder {
-    font-size: 1.5vh;
+    font-size: 0.75rem;
     color: var(--gray-text);
     line-height: 1.8;
 }
@@ -212,7 +212,7 @@ main {
 .info-list li {
     padding: 0.5rem 0;
     color: var(--text-color);
-    font-size: 2vh;
+    font-size: 1rem;
 }
 
 .info-list li::before {
@@ -223,7 +223,7 @@ main {
 }
 
 .subsection-title {
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
@@ -268,7 +268,7 @@ main {
 }
 
 .expertise-title {
-    font-size: 2.4vh;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--text-color);
     margin-bottom: 2rem;
@@ -354,7 +354,7 @@ main {
 .expertise-list li {
     padding: 0.4rem 0.7rem 0.4rem 1.5rem;
     color: var(--gray-text);
-    font-size: 2vh;
+    font-size: 1rem;
     line-height: 1.6;
     background: #161616;
     border-radius: 4px;
@@ -377,7 +377,7 @@ main {
 .career-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 1.7vh;
+    font-size: 0.85rem;
 }
 
 .career-table thead {
@@ -433,7 +433,7 @@ main {
 .achievement-list>li {
     padding: 0.75rem 0;
     color: var(--text-color);
-    font-size: 1.8vh;
+    font-size: 0.9rem;
     position: relative;
     padding-left: 1.5rem;
 }
@@ -465,7 +465,7 @@ main {
 .sub-list li {
     padding: 0.3rem 0;
     color: var(--gray-text);
-    font-size: 1.6vh;
+    font-size: 0.8rem;
     position: relative;
     padding-left: 1rem;
 }
@@ -496,14 +496,14 @@ main {
 }
 
 .main-title {
-    font-size: 6vh;
+    font-size: 3rem;
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 0.8rem;
 }
 
 .sub-title {
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-weight: 300;
     color: var(--text-color);
     margin-bottom: 2vh;
@@ -515,7 +515,7 @@ main {
 }
 
 .role-list li {
-    font-size: 1.5vh;
+    font-size: 0.75rem;
     color: var(--gray-text);
     margin-bottom: 0.3vh;
 }
@@ -532,7 +532,7 @@ main {
 }
 
 .intro-title {
-    font-size: 2.2vh;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--text-color);
     margin-bottom: 1rem;
@@ -570,7 +570,7 @@ main {
 }
 
 .intro-text {
-    font-size: 2vh;
+    font-size: 1rem;
     color: var(--gray-text);
     margin-bottom: 0;
     list-style: none;
@@ -587,7 +587,7 @@ main {
 }
 
 .intro-text li.intro-muted {
-    font-size: 1.5vh;
+    font-size: 0.75rem;
     color: var(--gray-text);
 }
 
@@ -693,27 +693,27 @@ main {
 }
 
 .stat-header h3 {
-    font-size: 2vh;
+    font-size: 1rem;
     font-weight: 700;
     color: #c8c8c8;
     margin: 0;
 }
 
 .percentage {
-    font-size: 4vh;
+    font-size: 2rem;
     font-weight: 300;
     line-height: 1;
     color: #d4d4d4;
 }
 
 .percentage small {
-    font-size: 2vh;
+    font-size: 1rem;
     font-weight: 300;
     color: #aaa;
 }
 
 .stat-desc {
-    font-size: 1.5vh;
+    font-size: 0.75rem;
     color: #888;
     line-height: 1.3;
     margin-bottom: auto;
@@ -746,14 +746,14 @@ main {
 }
 
 .exp-hero-title {
-    font-size: 4.5vh;
+    font-size: 2.25rem;
     font-weight: 800;
     color: var(--text-color);
     margin-bottom: 0.8rem;
 }
 
 .exp-hero-sub {
-    font-size: 2vh;
+    font-size: 1rem;
     color: var(--accent-color);
     margin-bottom: 0.4rem;
     letter-spacing: 0.02em;
@@ -764,7 +764,7 @@ main {
 }
 
 .exp-hero-desc {
-    font-size: 2vh;
+    font-size: 1rem;
     color: var(--gray-text);
     line-height: 1.6;
 }
@@ -798,7 +798,7 @@ main {
 }
 
 .project-label {
-    font-size: 1.6vh;
+    font-size: 0.8rem;
     color: var(--accent-color);
     font-weight: 500;
     margin-bottom: 0.6rem;
@@ -817,7 +817,7 @@ main {
 }
 
 .project-headline {
-    font-size: 2.8vh;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--text-color);
     margin-bottom: 1rem;
@@ -825,7 +825,7 @@ main {
 }
 
 .project-summary {
-    font-size: 1.8vh;
+    font-size: 0.9rem;
     color: var(--gray-text);
     line-height: 1.7;
     margin-bottom: 0.5rem;
@@ -834,7 +834,7 @@ main {
 .project-toggle {
     display: inline-block;
     margin-top: 0.5rem;
-    font-size: 1.5vh;
+    font-size: 0.75rem;
     color: #555;
     cursor: pointer;
     transition: color 0.2s ease;
@@ -876,7 +876,7 @@ main {
 .project-actions li {
     padding: 0.35rem 0;
     color: var(--gray-text);
-    font-size: 1.7vh;
+    font-size: 0.85rem;
     line-height: 1.6;
     position: relative;
     padding-left: 1.2rem;
@@ -902,7 +902,7 @@ main {
     background: #1a1a1a;
     border: 1px solid #333;
     border-radius: 20px;
-    font-size: 1.5vh;
+    font-size: 0.75rem;
     color: #888;
     white-space: nowrap;
 }
@@ -914,7 +914,7 @@ main {
 }
 
 .project-detail-links a {
-    font-size: 1.5vh;
+    font-size: 0.75rem;
     color: var(--accent-color);
     font-weight: 500;
     transition: color 0.2s ease;
@@ -937,7 +937,7 @@ main {
 
 .back-link {
     display: inline-block;
-    font-size: 1.5vh;
+    font-size: 0.75rem;
     color: #555;
     margin-bottom: 2rem;
     transition: color 0.2s ease;
@@ -954,7 +954,7 @@ main {
 }
 
 .detail-title {
-    font-size: 3.5vh;
+    font-size: 1.75rem;
     font-weight: 800;
     color: var(--text-color);
     line-height: 1.3;
@@ -964,7 +964,7 @@ main {
 .detail-meta {
     display: flex;
     gap: 1.5rem;
-    font-size: 1.6vh;
+    font-size: 0.8rem;
     color: var(--accent-color);
     margin-bottom: 2rem;
     flex-wrap: wrap;
@@ -994,7 +994,7 @@ main {
 
 .detail-sections-label {
     display: block;
-    font-size: 1.6vh;
+    font-size: 0.8rem;
     color: var(--gray-text);
     margin-bottom: 0.4rem;
 }
@@ -1016,14 +1016,14 @@ main {
 
 .detail-stat-number {
     display: block;
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-weight: 800;
     color: var(--accent-color);
     margin-bottom: 0.3rem;
 }
 
 .detail-stat-label {
-    font-size: 1.4vh;
+    font-size: 0.7rem;
     color: var(--gray-text);
 }
 
@@ -1046,7 +1046,7 @@ main {
 }
 
 .detail-section-title {
-    font-size: 2vh;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--gray-text);
     padding: 0.4rem 0.7rem 0.4rem 1.5rem;
@@ -1129,7 +1129,7 @@ main {
     background: none;
     border: none;
     color: var(--gray-text);
-    font-size: 1.6vh;
+    font-size: 0.8rem;
     cursor: pointer;
     margin-bottom: 1.5rem;
     padding: 0;
@@ -1141,7 +1141,7 @@ main {
 }
 
 .drawer-title {
-    font-size: 2.5vh;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--text-color);
     margin-bottom: 1.5rem;
@@ -1163,14 +1163,14 @@ main {
 }
 
 .detail-block-label {
-    font-size: 1.8vh;
+    font-size: 0.9rem;
     font-weight: 700;
     color: var(--accent-color);
     margin-bottom: 0.6rem;
 }
 
 .detail-text {
-    font-size: 1.8vh;
+    font-size: 0.9rem;
     color: var(--gray-text);
     line-height: 1.8;
     margin-bottom: 0.8rem;
@@ -1189,7 +1189,7 @@ main {
 .detail-list li {
     padding: 0.4rem 0;
     color: var(--gray-text);
-    font-size: 1.7vh;
+    font-size: 0.85rem;
     line-height: 1.7;
     position: relative;
     padding-left: 1.2rem;
@@ -1242,7 +1242,7 @@ main {
 }
 
 .detail-nav a {
-    font-size: 1.6vh;
+    font-size: 0.8rem;
     color: #555;
     transition: color 0.2s ease;
 }
@@ -1435,7 +1435,7 @@ main {
     }
 
     .expertise-list li {
-        font-size: 1.8vh;
+        font-size: 0.9rem;
     }
 
     .detail-images {
