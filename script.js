@@ -33,7 +33,7 @@ const INTRO_TEXT = `
 안녕하세요. 하상범입니다.
 
 LG전자 10년 · 제품 창업 6년 · B2B SaaS 3년
-리서치로 문제를 정의하고, 제품으로 전환해 성과를 만들어왔습니다.
+비정형 문제를 정의하고, 제품으로 전환해 성과를 만들어왔습니다.
 
 이력서     <a href="pdf/resume_2026.pdf" target="_blank">resume_2026.pdf</a>
 뉴스레터   <a href="https://paper.xyz" target="_blank">paper.xyz</a>
@@ -610,6 +610,27 @@ document.addEventListener('touchend', () => {
         return;
     }
     cmdInput.focus();
+});
+
+// 빨간 버튼 (닫기) → 줌아웃
+const termWindow = document.querySelector('.terminal-window');
+const desktop = document.getElementById('desktop');
+const appIcon = document.getElementById('app-icon');
+
+document.querySelector('.btn-close').addEventListener('click', (e) => {
+    e.stopPropagation();
+    termWindow.classList.add('zoom-out');
+    setTimeout(() => {
+        desktop.classList.add('visible');
+    }, 400);
+});
+
+// 앱 아이콘 클릭 → 줌인
+appIcon.addEventListener('click', (e) => {
+    e.stopPropagation();
+    desktop.classList.remove('visible');
+    termWindow.classList.remove('zoom-out');
+    setTimeout(() => cmdInput.focus(), 500);
 });
 
 // 초기 인트로
