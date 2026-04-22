@@ -41,7 +41,8 @@ LG전자 10년 · 제품 창업 6년 · B2B SaaS 3년
 
 ---dotline---
 
-명령어:  A 주요성과  |  E 경력  |  B 배경  |  C 연락처  |  clear 초기화
+명령어:
+A 주요성과  |  E 경력  |  B 배경  |  C 연락처  |  clear 초기화
 
 ---dotline---
 `;
