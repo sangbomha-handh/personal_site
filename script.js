@@ -36,7 +36,7 @@ LG전자 10년 · 제품 창업 6년 · B2B SaaS 3년
 비정형 문제를 정의하고, 제품으로 전환해 성과를 만들어왔습니다.
 
 이력서     <a href="pdf/resume_2026.pdf" target="_blank">resume_2026.pdf</a>
-뉴스레터   <a href="https://paper.xyz" target="_blank">paper.xyz</a>
+뉴스레터   <a href="https://getpaper.xyz" target="_blank">paper</a>
 
 ---dotline---
 
