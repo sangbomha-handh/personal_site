@@ -4,25 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sangbomha</title>
-    <meta name="description" content="하상범의 개인 웹사이트입니다">
+    <title>하상범 | 개인웹사이트</title>
+    <meta name="description" content="LG전자 10년, 제품 창업 6년, B2B SaaS 3년. 리서치로 문제를 정의하고 제품으로 전환해 성과를 만드는 프로덕트 리더.">
     <meta name="author" content="하상범">
+    <meta name="robots" content="index, follow">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="sangbomha">
-    <meta property="og:description" content="하상범의 개인 웹사이트입니다">
+    <meta property="og:title" content="하상범 | 개인웹사이트">
+    <meta property="og:description" content="LG전자 10년 + 제품 창업 6년 + B2B SaaS 3년. 리서치로 문제를 정의하고 제품으로 실행합니다.">
     <meta property="og:image" content="https://sangbomha.xyz/images/etc/og_image.png">
     <meta property="og:url" content="https://sangbomha.xyz">
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="profile">
+    <meta property="og:locale" content="ko_KR">
 
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="sangbomha">
-    <meta name="twitter:description" content="하상범의 개인 웹사이트입니다">
+    <meta name="twitter:title" content="하상범 | 개인웹사이트">
+    <meta name="twitter:description" content="LG전자 10년 + 제품 창업 6년 + B2B SaaS 3년. 리서치로 문제를 정의하고 제품으로 실행합니다.">
     <meta name="twitter:image" content="https://sangbomha.xyz/images/etc/og_image.png">
 
     <link rel="stylesheet" href="style.css">
-    <!-- Google tag (gtag.js) -->
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVQR6F6R18"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -33,17 +33,24 @@
 </head>
 
 <body>
-    <div id="header-placeholder"></div>
-
-    <main>
-        <div id="home-placeholder"></div>
-        <div id="summary-placeholder"></div>
-        <div id="experience-placeholder"></div>
-        <div id="projects-placeholder"></div>
-    </main>
-
-    <div id="footer-placeholder"></div>
-
+    <div class="terminal-window">
+        <div class="terminal-titlebar">
+            <div class="terminal-buttons">
+                <span class="btn-close"></span>
+                <span class="btn-minimize"></span>
+                <span class="btn-maximize"></span>
+            </div>
+            <div class="terminal-title">visitor@sangbomha — zsh — 80x24</div>
+            <div class="terminal-buttons-spacer"></div>
+        </div>
+        <div class="terminal-body">
+            <div class="terminal-output" id="output"></div>
+            <div class="terminal-input-line">
+                <span class="prompt">visitor@sangbomha:~$</span>
+                <span class="terminal-input-text" id="cmd-display"></span><span class="cursor"></span><input type="text" id="cmd" class="terminal-input" autofocus autocomplete="off" spellcheck="false">
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
