@@ -33,7 +33,8 @@ const INTRO_TEXT = `
 안녕하세요. 하상범입니다.
 
 LG전자 10년 · 제품 창업 6년 · B2B SaaS 3년
-비정형 문제를 정의하고, 제품으로 전환해 성과를 만들어왔습니다.
+비정형 문제를 정의하고,
+제품으로 전환해 성과를 만들어 왔습니다.
 
 이력서     <a href="pdf/resume_2026.pdf" target="_blank">resume_2026.pdf</a>
 뉴스레터   <a href="https://getpaper.xyz" target="_blank">paper</a>
@@ -357,7 +358,9 @@ function showArrayPage() {
 // 인트로 출력
 function showIntro() {
     const artBlock = document.createElement('div');
-    artBlock.style.cssText = 'font-size:14px;line-height:1.15;letter-spacing:0;overflow-x:auto;color:#5fa7e8;margin-bottom:1rem;font-family:monospace;';
+    const isMobile = window.innerWidth <= 640;
+    const artFontSize = isMobile ? '7px' : '14px';
+    artBlock.style.cssText = `font-size:${artFontSize};line-height:1.15;letter-spacing:0;white-space:pre;color:#5fa7e8;margin-bottom:1rem;font-family:monospace;`;
     artBlock.textContent = ASCII_ART.join('\n');
     output.appendChild(artBlock);
 
@@ -596,20 +599,33 @@ cmdInput.addEventListener('input', () => {
 });
 
 // 화면 클릭/터치 시
-document.addEventListener('click', () => {
+const isMobileDevice = ('ontouchstart' in window);
+
+document.addEventListener('click', (e) => {
     if (waitingForNext) {
         nextPage();
         return;
     }
-    cmdInput.focus();
+    // 모바일: 커서/입력 영역 터치할 때만 키보드 올림
+    if (isMobileDevice) {
+        const inputLine = document.querySelector('.terminal-input-line');
+        if (inputLine && inputLine.contains(e.target)) {
+            cmdInput.focus();
+        }
+    } else {
+        cmdInput.focus();
+    }
 });
 
-document.addEventListener('touchend', () => {
+document.addEventListener('touchend', (e) => {
     if (waitingForNext) {
         nextPage();
         return;
     }
-    cmdInput.focus();
+    const inputLine = document.querySelector('.terminal-input-line');
+    if (inputLine && inputLine.contains(e.target)) {
+        cmdInput.focus();
+    }
 });
 
 // 빨간 버튼 (닫기) → 줌아웃
