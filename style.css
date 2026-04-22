@@ -298,14 +298,18 @@ a:hover {
 @media (max-width: 640px) {
     body {
         padding: 0;
-        padding-top: env(safe-area-inset-top, 0px);
         align-items: flex-start;
+    }
+
+    .terminal-titlebar {
+        padding-top: env(safe-area-inset-top, 20px);
+        height: calc(38px + env(safe-area-inset-top, 20px));
     }
 
     .terminal-window {
         max-width: 100%;
-        min-height: calc(100vh - env(safe-area-inset-top, 0px));
-        max-height: calc(100vh - env(safe-area-inset-top, 0px));
+        min-height: 100vh;
+        max-height: 100vh;
         border-radius: 0;
     }
 
